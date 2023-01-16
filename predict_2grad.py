@@ -114,8 +114,8 @@ initial()
 
 process_single_img=0
 if process_single_img:
-    data_path = 'data/test/mitochondrion//singleshot/cell2G2Dz0p3umONOffM0p1um'
-    data_path_on = 'data/test/mitochondrion/singleshot/cell2G2Dz0p3umON'
+    data_path = 'data/test/mitochondrion//single/cell2G2Dz0p3umONOffM0p1um'
+    data_path_on = 'data/test/mitochondrion/single/cell2G2Dz0p3umON'
     all_img = []
     onfocus = imageio.imread(data_path_on + '.tif').astype(np.float)
     all_img.append(onfocus)
