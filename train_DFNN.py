@@ -96,12 +96,12 @@ def stand(data):
 
 
 if input_channels == 1:
-    save_weights_name = model_name + '-SISR_' + data_name
+    save_weights_name = model_name + data_name
     cur_data_loader = data_loader_focus
     train_images_path = data_dir + '/train/'
     validate_images_path = data_dir + '/test/'
 else:
-    save_weights_name = model_name + '-SIM_' + data_name
+    save_weights_name = model_name + data_name
     cur_data_loader = data_loader_focus
     train_images_path = data_dir + '/train_FFT/'
     validate_images_path = data_dir + '/test_FFT/'
