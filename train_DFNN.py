@@ -45,7 +45,7 @@ parser.add_argument("--patch_width", type=int, default=1)
 parser.add_argument("--input_channels", type=int, default=3)
 parser.add_argument("--data_dir", type=str, default="dataset/train/depth3_0.5um")
 parser.add_argument("--save_weights_dir", type=str, default="trained_models/")
-parser.add_argument("--model_name", type=str, default="MT_10000epoch_95cells")
+parser.add_argument("--model_name", type=str, default="MT_10000epoch")
 args = parser.parse_args()
 gpu_id = str(args.gpu_id)
 gpu_memory_fraction = args.gpu_memory_fraction
