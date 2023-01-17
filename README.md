@@ -29,6 +29,6 @@ Files named predict_3grad.py and predict_2grad.py are programmed for the defocus
 
 The DFNN can be trained by the file <train_DFNN.py> with our open-source datasets.
 
-## License
+### License
 
 This repository is released under the MIT License (refer to the LICENSE file for details).
