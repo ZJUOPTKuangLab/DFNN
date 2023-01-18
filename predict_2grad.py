@@ -146,7 +146,7 @@ else:
         val,rz= predict(onfocus, out)
         depth.append(val)
     d=np.linspace(star, end, end-star)
-    real=(d-50)*0.05
+    real=(d-51)*0.05
     # print(max(abs(depth-real)))
     fig, ax = plt.subplots()
     ax.plot(np.linspace(0,len(depth),len(depth)),real,label='real')
