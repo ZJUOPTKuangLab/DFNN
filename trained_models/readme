@@ -1,1 +1,4 @@
-The default storage path for best weights
+This folder is the default storage path for the best weights during the training process. 
+Two weights are saved and provided here for testing our network performance.
+Naming rule of weights follows by ../<gradient number>_<Dz>_<DatasetName>/weights.best.h5.
+For example, grad2_0.3um_0.3um denotes gradient numbers=2, Dz=0.3um, and the training dataset names 0.3um.
