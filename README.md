@@ -23,13 +23,9 @@ The DFNN (Deep Fourier neutral network) we propose is a neural network that faci
 `./utils` contains auxiliary modules for traning
 `./trained_models` place pre-trained DFNN models here for testing, and newly trained models will be saved here by default
 
-## Dataset
-Data of mitochondria illuminated by the pattern of 2 gradients with Dz 0f 0.3 um (G2#0.3um) and F-actins illuminated by the pattern G3#0.5um are provided in folder ./dataset/test.
-
-
 ## Usage
 ### Test 
-Files named predict_3grad.py and predict_2grad.py are programmed for the defocus inference of single-shot images illuminated by multi-depth lattice patterns with three gradients and two gradients, respectively.
+Files named predict_3grad.py and predict_2grad.py are programmed for the defocus inference of single-shot images illuminated by multi-depth lattice patterns with three gradients and two gradients, respectively. Data of mitochondria illuminated by the pattern of 2 gradients with Dz 0f 0.3 um (G2#0.3um) and F-actins illuminated by the pattern G3#0.5um are provided in folder ./dataset/test.
 
 ### Training
 The DFNN can be trained by the file <train_DFNN.py> with our open-source datasets.
