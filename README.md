@@ -16,6 +16,13 @@ The DFNN (Deep Fourier neutral network) we propose is a neural network that faci
 -   Keras 2.2.5
 -   GPU GeForce RTX 2080Ti
 
+## File Description
+`./data` is the default path for training data and testing data
+`./data/train` The augmented training image patch pairs will be saved here by default
+`./data/test` includes experiment data of mitochondria and microtubules to test DFNN models
+`./utils` contains auxiliary modules for traning
+`./trained_models` place pre-trained DFNN models here for testing, and newly trained models will be saved here by default
+
 ## Dataset
 Data of mitochondria illuminated by the pattern of 2 gradients with Dz 0f 0.3 um (G2#0.3um) and F-actins illuminated by the pattern G3#0.5um are provided in folder ./dataset/test.
 
